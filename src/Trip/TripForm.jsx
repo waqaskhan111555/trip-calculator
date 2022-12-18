@@ -128,6 +128,8 @@ const TripForm = ({}) => {
   const [billAmount, setBillAmount] = useState(0);
   const [tipAmount, setTipAmount] = useState(0);
   const [totalPerson, setPerson] = useState(null);
+
+  //tip button options States
   const [clickedButton, setClickedButton] = useState([
     false,
     false,
