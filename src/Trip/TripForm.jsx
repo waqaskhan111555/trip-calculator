@@ -3,15 +3,9 @@ import { Grid, Paper, Button, TextField } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import InputAdornment from "@mui/material/InputAdornment";
 import person from "../images/icon-person.svg";
-
 import dollar from "../images/icon-dollar.svg";
 import logo from "../images/logo.svg";
-import clsx from "clsx";
-
-import Box from "@mui/material/Box";
-
 import Container from "@mui/material/Container";
-import useSnackBar from "../custom/Hooks/useSnackbar";
 import { fontWeight } from "@mui/system";
 const useStyles = makeStyles(() => ({
   button: {
@@ -139,7 +133,7 @@ const TripForm = ({}) => {
   ]);
   const [deletedNotification, setDeletedNotification] = useState([]);
   const [notifyEventList, setNotifyEventList] = useState([]);
-  const handleSubmit = () => {};
+
 
   //Calcualte Bill
   const handleCalcualteBill = (e) => {
