@@ -1,6 +1,6 @@
 {
   "homePage":"http://waqaskhan111555.github.io/trip-calculator",
-  "name": "myapp",
+  "name": "trip-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
