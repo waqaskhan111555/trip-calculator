@@ -170,7 +170,7 @@ const TripForm = ({}) => {
     const data = [...clickedButton];
     const newdata = data.map((Val) => false);
     setClickedButton(newdata);
-    setTipAmount(e.target.value);
+    setTipAmount((e.target.value/100)*billAmount)
   };
 
   //handling no  of People
